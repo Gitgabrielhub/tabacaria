@@ -16,9 +16,9 @@ export class StoreComponent {
     
     {
       id:1,
-      name:'pod melancia',
+      name:'pod morango',
       price:25,
-      description: 'Some quick example text to build on the card title and make up the bulk of the card’s content'
+      description: 'Pod sabor morango, com toques de chocomenta '
     },
     
     {

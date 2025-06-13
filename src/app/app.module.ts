@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './componenes/footer/footer.component';
 import { StoreComponent } from './componenes/store/store.component';
+import { CardComponent } from './componenes/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    StoreComponent
+    StoreComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

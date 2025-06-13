@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-3 pt-5 " *ngFor="let item of listCards">
+    <div class="card"  >
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xxl-12 text-center">
+          <img src="{{item.img}}" style="width: 200px; height: 200px;" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{item.nome}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <p [style.color]="item.emEstoque ? 'green' : 'red'">R${{item.preco}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
